@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A3D0B0297084BD00F9848C /* Setting_up_Parent_and_Child_ViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3D0AF297084BD00F9848C /* Setting_up_Parent_and_Child_ViewsApp.swift */; };
+		87A3D0B2297084BD00F9848C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3D0B1297084BD00F9848C /* ContentView.swift */; };
+		87A3D0B4297084BF00F9848C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A3D0B3297084BF00F9848C /* Assets.xcassets */; };
+		87A3D0B7297084BF00F9848C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A3D0B6297084BF00F9848C /* Preview Assets.xcassets */; };
+		87A3D0C1297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3D0C0297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsTests.swift */; };
+		87A3D0CB297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3D0CA297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITests.swift */; };
+		87A3D0CD297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3D0CC297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITestsLaunchTests.swift */; };
+		87A3D0DB2970881000F9848C /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3D0DA2970881000F9848C /* ParentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A3D0BD297084BF00F9848C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A3D0A4297084BD00F9848C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A3D0AB297084BD00F9848C;
+			remoteInfo = "Setting up Parent and Child Views";
+		};
+		87A3D0C7297084BF00F9848C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A3D0A4297084BD00F9848C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A3D0AB297084BD00F9848C;
+			remoteInfo = "Setting up Parent and Child Views";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87A3D0AC297084BD00F9848C /* Setting up Parent and Child Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setting up Parent and Child Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A3D0AF297084BD00F9848C /* Setting_up_Parent_and_Child_ViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_up_Parent_and_Child_ViewsApp.swift; sourceTree = "<group>"; };
+		87A3D0B1297084BD00F9848C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87A3D0B3297084BF00F9848C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A3D0B6297084BF00F9848C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87A3D0BC297084BF00F9848C /* Setting up Parent and Child ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Setting up Parent and Child ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A3D0C0297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_up_Parent_and_Child_ViewsTests.swift; sourceTree = "<group>"; };
+		87A3D0C6297084BF00F9848C /* Setting up Parent and Child ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Setting up Parent and Child ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A3D0CA297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_up_Parent_and_Child_ViewsUITests.swift; sourceTree = "<group>"; };
+		87A3D0CC297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_up_Parent_and_Child_ViewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87A3D0D9297084EA00F9848C /* Exercise- Setting up parent and child views .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Exercise- Setting up parent and child views .md"; sourceTree = "<group>"; };
+		87A3D0DA2970881000F9848C /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A3D0A9297084BD00F9848C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3D0B9297084BF00F9848C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3D0C3297084BF00F9848C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A3D0A3297084BD00F9848C = {
+			isa = PBXGroup;
+			children = (
+				87A3D0AE297084BD00F9848C /* Setting up Parent and Child Views */,
+				87A3D0BF297084BF00F9848C /* Setting up Parent and Child ViewsTests */,
+				87A3D0C9297084BF00F9848C /* Setting up Parent and Child ViewsUITests */,
+				87A3D0AD297084BD00F9848C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A3D0AD297084BD00F9848C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A3D0AC297084BD00F9848C /* Setting up Parent and Child Views.app */,
+				87A3D0BC297084BF00F9848C /* Setting up Parent and Child ViewsTests.xctest */,
+				87A3D0C6297084BF00F9848C /* Setting up Parent and Child ViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A3D0AE297084BD00F9848C /* Setting up Parent and Child Views */ = {
+			isa = PBXGroup;
+			children = (
+				87A3D0AF297084BD00F9848C /* Setting_up_Parent_and_Child_ViewsApp.swift */,
+				87A3D0B1297084BD00F9848C /* ContentView.swift */,
+				87A3D0DA2970881000F9848C /* ParentView.swift */,
+				87A3D0B3297084BF00F9848C /* Assets.xcassets */,
+				87A3D0B5297084BF00F9848C /* Preview Content */,
+				87A3D0D9297084EA00F9848C /* Exercise- Setting up parent and child views .md */,
+			);
+			path = "Setting up Parent and Child Views";
+			sourceTree = "<group>";
+		};
+		87A3D0B5297084BF00F9848C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87A3D0B6297084BF00F9848C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87A3D0BF297084BF00F9848C /* Setting up Parent and Child ViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A3D0C0297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsTests.swift */,
+			);
+			path = "Setting up Parent and Child ViewsTests";
+			sourceTree = "<group>";
+		};
+		87A3D0C9297084BF00F9848C /* Setting up Parent and Child ViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87A3D0CA297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITests.swift */,
+				87A3D0CC297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITestsLaunchTests.swift */,
+			);
+			path = "Setting up Parent and Child ViewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A3D0AB297084BD00F9848C /* Setting up Parent and Child Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A3D0D0297084BF00F9848C /* Build configuration list for PBXNativeTarget "Setting up Parent and Child Views" */;
+			buildPhases = (
+				87A3D0A8297084BD00F9848C /* Sources */,
+				87A3D0A9297084BD00F9848C /* Frameworks */,
+				87A3D0AA297084BD00F9848C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Setting up Parent and Child Views";
+			productName = "Setting up Parent and Child Views";
+			productReference = 87A3D0AC297084BD00F9848C /* Setting up Parent and Child Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87A3D0BB297084BF00F9848C /* Setting up Parent and Child ViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A3D0D3297084BF00F9848C /* Build configuration list for PBXNativeTarget "Setting up Parent and Child ViewsTests" */;
+			buildPhases = (
+				87A3D0B8297084BF00F9848C /* Sources */,
+				87A3D0B9297084BF00F9848C /* Frameworks */,
+				87A3D0BA297084BF00F9848C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A3D0BE297084BF00F9848C /* PBXTargetDependency */,
+			);
+			name = "Setting up Parent and Child ViewsTests";
+			productName = "Setting up Parent and Child ViewsTests";
+			productReference = 87A3D0BC297084BF00F9848C /* Setting up Parent and Child ViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87A3D0C5297084BF00F9848C /* Setting up Parent and Child ViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A3D0D6297084BF00F9848C /* Build configuration list for PBXNativeTarget "Setting up Parent and Child ViewsUITests" */;
+			buildPhases = (
+				87A3D0C2297084BF00F9848C /* Sources */,
+				87A3D0C3297084BF00F9848C /* Frameworks */,
+				87A3D0C4297084BF00F9848C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A3D0C8297084BF00F9848C /* PBXTargetDependency */,
+			);
+			name = "Setting up Parent and Child ViewsUITests";
+			productName = "Setting up Parent and Child ViewsUITests";
+			productReference = 87A3D0C6297084BF00F9848C /* Setting up Parent and Child ViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A3D0A4297084BD00F9848C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					87A3D0AB297084BD00F9848C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					87A3D0BB297084BF00F9848C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 87A3D0AB297084BD00F9848C;
+					};
+					87A3D0C5297084BF00F9848C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 87A3D0AB297084BD00F9848C;
+					};
+				};
+			};
+			buildConfigurationList = 87A3D0A7297084BD00F9848C /* Build configuration list for PBXProject "Setting up Parent and Child Views" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A3D0A3297084BD00F9848C;
+			productRefGroup = 87A3D0AD297084BD00F9848C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A3D0AB297084BD00F9848C /* Setting up Parent and Child Views */,
+				87A3D0BB297084BF00F9848C /* Setting up Parent and Child ViewsTests */,
+				87A3D0C5297084BF00F9848C /* Setting up Parent and Child ViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A3D0AA297084BD00F9848C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A3D0B7297084BF00F9848C /* Preview Assets.xcassets in Resources */,
+				87A3D0B4297084BF00F9848C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3D0BA297084BF00F9848C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3D0C4297084BF00F9848C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A3D0A8297084BD00F9848C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A3D0B2297084BD00F9848C /* ContentView.swift in Sources */,
+				87A3D0DB2970881000F9848C /* ParentView.swift in Sources */,
+				87A3D0B0297084BD00F9848C /* Setting_up_Parent_and_Child_ViewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3D0B8297084BF00F9848C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A3D0C1297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3D0C2297084BF00F9848C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A3D0CD297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITestsLaunchTests.swift in Sources */,
+				87A3D0CB297084BF00F9848C /* Setting_up_Parent_and_Child_ViewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A3D0BE297084BF00F9848C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A3D0AB297084BD00F9848C /* Setting up Parent and Child Views */;
+			targetProxy = 87A3D0BD297084BF00F9848C /* PBXContainerItemProxy */;
+		};
+		87A3D0C8297084BF00F9848C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A3D0AB297084BD00F9848C /* Setting up Parent and Child Views */;
+			targetProxy = 87A3D0C7297084BF00F9848C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87A3D0CE297084BF00F9848C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87A3D0CF297084BF00F9848C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A3D0D1297084BF00F9848C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Setting up Parent and Child Views/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "littlelemon.Setting-up-Parent-and-Child-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A3D0D2297084BF00F9848C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Setting up Parent and Child Views/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "littlelemon.Setting-up-Parent-and-Child-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87A3D0D4297084BF00F9848C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "littlelemon.Setting-up-Parent-and-Child-ViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Setting up Parent and Child Views.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Setting up Parent and Child Views";
+			};
+			name = Debug;
+		};
+		87A3D0D5297084BF00F9848C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "littlelemon.Setting-up-Parent-and-Child-ViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Setting up Parent and Child Views.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Setting up Parent and Child Views";
+			};
+			name = Release;
+		};
+		87A3D0D7297084BF00F9848C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "littlelemon.Setting-up-Parent-and-Child-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Setting up Parent and Child Views";
+			};
+			name = Debug;
+		};
+		87A3D0D8297084BF00F9848C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "littlelemon.Setting-up-Parent-and-Child-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Setting up Parent and Child Views";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A3D0A7297084BD00F9848C /* Build configuration list for PBXProject "Setting up Parent and Child Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A3D0CE297084BF00F9848C /* Debug */,
+				87A3D0CF297084BF00F9848C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A3D0D0297084BF00F9848C /* Build configuration list for PBXNativeTarget "Setting up Parent and Child Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A3D0D1297084BF00F9848C /* Debug */,
+				87A3D0D2297084BF00F9848C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A3D0D3297084BF00F9848C /* Build configuration list for PBXNativeTarget "Setting up Parent and Child ViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A3D0D4297084BF00F9848C /* Debug */,
+				87A3D0D5297084BF00F9848C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A3D0D6297084BF00F9848C /* Build configuration list for PBXNativeTarget "Setting up Parent and Child ViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A3D0D7297084BF00F9848C /* Debug */,
+				87A3D0D8297084BF00F9848C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A3D0A4297084BD00F9848C /* Project object */;
+}
